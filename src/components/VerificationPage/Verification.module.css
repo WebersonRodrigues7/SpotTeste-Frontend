@@ -1,0 +1,124 @@
+.main {
+  background-color: #121212;
+  min-height: 100vh;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 110px;
+  font-weight: bold;
+  gap: 30px;
+}
+
+.sectionTop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.sectionTop .icon {
+  position: absolute;
+  color: grey;
+  top: -50;
+  left: -5;
+}
+
+.sectionTop .icon:hover {
+  color: rgb(177, 177, 177);
+  cursor: pointer;
+}
+.sectionTop p {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.sectionTop form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sectionTop form div {
+  display: flex;
+  gap: 10px;
+}
+
+.sectionTop form div input {
+  width: 45px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 20px;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  height: 53px;
+  transition: 0.1s ease;
+}
+
+.sectionTop form div input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.sectionTop form div input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.sectionTop form div input:focus {
+  box-shadow: inset 0px 0px 0px 3px rgb(255, 255, 255);
+  transition: 0.1s ease;
+}
+
+.sectionTop form button {
+  background-color: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.671);
+  font-weight: bold;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 50px;
+  transition: 0.09s ease;
+}
+
+.sectionTop form button:hover {
+  scale: 1.05;
+  transition: 0.09s ease;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.main .sectionBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.main .sectionBottom button {
+  width: 320px;
+  background-color: #1ed760;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  font-weight: 800;
+  transition: 0.1s ease;
+  font-size: 15px;
+}
+
+.main .sectionBottom button:hover {
+  background-color: #22ec69;
+  scale: 1.03;
+  transition: 0.05s ease;
+  cursor: pointer;
+}
+
+.sectionBottom p:hover {
+  scale: 1.02;
+  cursor: pointer;
+}

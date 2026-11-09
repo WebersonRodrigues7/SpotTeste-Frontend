@@ -1,0 +1,76 @@
+.main {
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main .secForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+.secForm h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secForm form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.secForm form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.secForm form .divPass {
+  display: flex;
+}
+
+.secForm form .divPass input {
+  border: none;
+}
+
+.secForm form .divPass div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10px;
+  align-items: center;
+  border: 1px solid grey;
+}
+
+.secForm form div input {
+  background-color: transparent;
+  border: 1px solid grey;
+  padding: 12px;
+  width: 100%;
+  font-size: 15px;
+  color: white;
+}
+
+.secForm form div input:focus {
+  outline: none;
+}
+
+.secForm form button {
+  background-color: #1ed760;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.secForm form button:hover {
+  scale: 1.04;
+  cursor: pointer;
+  background-color: #22f16b;
+}
